@@ -1,34 +1,37 @@
+import React from 'react';
 
 export interface Feature {
   title: string;
   description: string;
+  icon: React.ReactNode;
 }
 
-export interface FAQItem {
-  question: string;
-  answer: string;
-}
-
-export interface WorkflowStep {
-  title: string;
-  description: string;
-}
-
-export interface SaaSProduct {
+export interface Product {
   id: string;
   name: string;
   tagline: string;
   description: string;
-  longDescription: string;
-  category: 'DevOps' | 'Marketing' | 'AI' | 'Finance' | 'Design';
-  icon: string;
-  stats: { label: string; value: string }[];
+  shortDescription: string;
+  accentColor: string;
+  icon: React.ReactNode;
   features: Feature[];
-  workflow: WorkflowStep[];
-  faqs: FAQItem[];
-  techStack: string[];
-  demoUrl: string;
-  previewImage: string;
+  liveDemoUrl: string;
+  problems: {
+    title: string;
+    description: string;
+    icon: React.ReactNode;
+  }[];
 }
 
-export type ViewState = 'home' | 'detail';
+export interface Step {
+  number: string;
+  title: string;
+  description: string;
+}
+
+export interface Testimonial {
+  quote: string;
+  author: string;
+  role: string;
+  image: string;
+}

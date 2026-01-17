@@ -1,9 +1,5 @@
-
 {
-  "name": "OrbitSaaS Portfolio",
-  "description": "A modern, innovative showcase for a suite of elite SaaS products featuring high-end design, interactive details, and Gemini-powered insights.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
+  "name": "RemoteSync - Team Accountability MVP",
+  "description": "A high-conversion landing page and showcase for a remote team accountability platform, featuring problem-solution deep dives, feature highlights, and interactive AI-driven insights.",
+  "requestFramePermissions": []
 }
