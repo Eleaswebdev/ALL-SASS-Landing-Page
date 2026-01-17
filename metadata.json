@@ -1,0 +1,9 @@
+
+{
+  "name": "OrbitSaaS Portfolio",
+  "description": "A modern, innovative showcase for a suite of elite SaaS products featuring high-end design, interactive details, and Gemini-powered insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
