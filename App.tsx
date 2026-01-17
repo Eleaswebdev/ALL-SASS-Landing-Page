@@ -354,7 +354,7 @@ const ProductDetailView: React.FC<{ product: Product, onBack: () => void }> = ({
           </div>
           <h1 className="text-4xl md:text-7xl lg:text-8xl font-black mb-8 leading-tight tracking-tight uppercase">
             {product.name} <br />
-            <span className="gradient-text">{product.tagline}</span>
+            <span className="gradient-text text-5xl">{product.tagline}</span>
           </h1>
           <p className="text-lg md:text-2xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed font-medium">
             {product.description}

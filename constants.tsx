@@ -71,16 +71,16 @@ export const PRODUCTS: Product[] = [
     id: 'w3c-fixer',
     name: "W3C Validator Fixer",
     tagline: "Automated Compliance & Syntax Repair",
-    shortDescription: "Auto-fix HTML/CSS validation errors to meet modern web standards.",
+    shortDescription: "Auto-fix HTML/CSS validation errors to meet modern web standards & THEMEFOREST REQUIREMENTS.",
     description: "Stop wasting hours manually fixing validation logs. Our engine automatically repairs non-compliant code while maintaining your design integrity.",
     accentColor: "#f59e0b",
     icon: <CheckCircle />,
-    liveDemoUrl: "https://demo.w3cfixer.io",
+    liveDemoUrl: "https://w3c-issue-fixer.zodevs.com/",
     features: [
-      { title: "Auto-Repair Engine", description: "", icon: <Bug /> },
-      { title: "Accessibility Audit", description: "", icon: <Globe /> },
-      { title: "Legacy Refactoring", description: "", icon: <Layers /> },
-      { title: "Batch Processing", description: "", icon: <Zap /> }
+      { title: "W3C issue Explain & Fix", description: "", icon: <Bug /> },
+      { title: "Instant Fix & Line Number Indicator", description: "", icon: <Globe /> },
+      { title: "Copy & Compare Like VS Code", description: "", icon: <Layers /> },
+      { title: "Strict Fix & Best Fix Versions", description: "", icon: <Zap /> }
     ],
     problems: [
       { title: "Validation Lag", description: "Manually fixing errors is slow.", icon: <Clock /> },
@@ -90,17 +90,17 @@ export const PRODUCTS: Product[] = [
   {
     id: 'readme-gen',
     name: "ReadMe Gen",
-    tagline: "AI-Powered Technical Documentation",
+    tagline: "AI-Powered GitHub README Generator",
     shortDescription: "Generate professional repository documentation in seconds.",
     description: "ReadMe Gen scans your codebase to create structured, beautiful, and accurate documentation. Focus on coding, not on writing docs.",
     accentColor: "#10b981",
     icon: <BookOpen />,
-    liveDemoUrl: "https://demo.readmegen.io",
+    liveDemoUrl: "http://readme-gen.zodevs.com/",
     features: [
-      { title: "Auto-Doc Discovery", description: "", icon: <Search /> },
-      { title: "API Mapping", description: "", icon: <Code2 /> },
-      { title: "Badge Automation", description: "", icon: <Sparkles /> },
-      { title: "Usage Examples", description: "", icon: <Layout /> }
+      { title: "README.md Generation", description: "", icon: <Search /> },
+      { title: "readme.txt for WordPress Plugins", description: "", icon: <Code2 /> },
+      { title: "Cover modern, professional 7 simple styling", description: "", icon: <Sparkles /> },
+      { title: "Options for Custom Sections & Instructions", description: "", icon: <Layout /> }
     ],
     problems: [
       { title: "Empty Repos", description: "No documentation leads to zero adoption.", icon: <FileCode /> },
@@ -109,18 +109,18 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'cleaner-indexer',
-    name: "JS/CSS Cleaner",
+    name: "JS/CSS Cleaner & Indexer",
     tagline: "Deep Asset Optimization & Indexing",
     shortDescription: "Eliminate dead code and index project architecture for peak performance.",
     description: "Our tool deep-scans your assets to strip unused selectors and functions, then creates a structural index for lightning-fast navigation.",
     accentColor: "#06b6d4",
     icon: <Scissors />,
-    liveDemoUrl: "https://demo.cleaner.io",
+    liveDemoUrl: "https://js-css-cleaner-indexer.zodevs.com/",
     features: [
-      { title: "Dead Code Stripping", description: "", icon: <Scissors /> },
-      { title: "Architecture Index", description: "", icon: <Database /> },
-      { title: "Tree Shaking", description: "", icon: <BrainCircuit /> },
-      { title: "Load Optimization", description: "", icon: <Zap /> }
+      { title: "Clean JSS/CSS/SCSS", description: "", icon: <Scissors /> },
+      { title: "Index any CSS/JS File", description: "", icon: <Database /> },
+      { title: "Maintain Themeforest Coding Standards", description: "", icon: <BrainCircuit /> },
+      { title: "Clean Commented Out Code", description: "", icon: <Zap /> }
     ],
     problems: [
       { title: "Asset Bloat", description: "Large JS/CSS files killing load times.", icon: <Zap /> },
